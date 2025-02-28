@@ -1,8 +1,37 @@
 # Differential picker robot 
-  ## prerequisite
-    world file is house.launch you get it by installing the turtlebot3_simulation.git
-    click ctrl+shift+v to render Readme.md
-# **3D model built in Fusion 360 convert to Urdf file**
+ This project involves the development of an autonomous differential drive robot equipped with a pick-and-place arm. The robot is designed to navigate dynamic environments, perform SLAM (Simultaneous Localization and Mapping), and execute pick-and-place tasks autonomously. The project leverages ROS (Robot Operating System), Gazebo for simulation, and MoveIt for motion planning.
+
+Features
+Autonomous Navigation: The robot can navigate through dynamic environments using SLAM.
+
+Pick and Place Arm: The robot is equipped with a manipulator arm for picking and placing objects.
+
+Simulation: The robot's performance is tested in a simulated environment using Gazebo.
+
+Motion Planning: MoveIt is used for motion planning and control of the robotic arm.
+
+Modular Design: The robot's components are designed using Fusion 360 and converted into URDF for simulation.
+
+Hardware Components
+Differential Drive System: For locomotion.
+
+Pick and Place Arm: For manipulating objects.
+
+LiDAR Sensor: For environment mapping and obstacle detection.
+
+Software Components
+ROS Noetic: The primary framework for robot control and simulation.
+
+Gazebo: For simulating the robot in a realistic environment.
+
+MoveIt: For motion planning and control of the robotic arm.
+
+Fusion 360: For designing the 3D model of the robot.
+
+Ubuntu 20.04: The operating system used for development.
+
+Setup Instructions
+# **3D model built in Fusion 360 converted to Urdf file**
 ![alt text](https://github.com/Shyjojose/differential_picker_robot/blob/main/screenshot/Screenshot%202024-06-27%20162012.png)
 
     $ cd ~/catkin_ws/src/
