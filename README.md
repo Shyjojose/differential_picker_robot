@@ -48,13 +48,13 @@ Setup Instructions
 
     $ roslaunch finaldesign_description  gazebo.launch
 
-![alt text](screnshot/SCREEN2.png)
+![alt text]([screnshot/SCREEN2.png](https://github.com/Shyjojose/differential_picker_robot/blob/main/screenshot/SCREEN2.png))
 
     $ roslaunch finaldesign_description  slam.launch
 
 ! need to add displays in the riviz tool 
 
-![alt text](screnshot/screen3.png)
+![alt text]([screnshot/screen3.png](https://github.com/Shyjojose/differential_picker_robot/blob/main/screenshot/screen3.png))
 
 click add-> By display type> RobotModel <br>
 click add-> by topic -> map <br>
@@ -72,7 +72,7 @@ click add-> by topic -> LaserSCan <br>
     $ roslaunch finaldesign_description navigation.launch map_file:=$HOME/map.yaml
 
  ## need to add the displays for the riviz tool
-![alt text](screnshot/screen4.png)
+![alt text]([screnshot/screen4.png](https://github.com/Shyjojose/differential_picker_robot/blob/main/screenshot/screen4.png))
 
 click add-> By display type> RobotModel <br>
 click add-> by topic -> map <br>
@@ -91,7 +91,7 @@ launch gazebo with moveit in riviz
     $ roslaunch moveit demo_gazebo.launch
 
 
-![alt text](screnshot/screen5.png)
+![alt text]([screnshot/screen5.png](https://github.com/Shyjojose/differential_picker_robot/blob/main/screenshot/screen5.png))
 
 click Planning-> select Planning group arm -> start state intitial -> goal state final <br>
 click Planning -> select planning group grab -> start state random -> goal state random <br>
