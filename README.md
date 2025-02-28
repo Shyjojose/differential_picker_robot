@@ -3,7 +3,7 @@
     world file is house.launch you get it by installing the turtlebot3_simulation.git
     click ctrl+shift+v to render Readme.md
 
-![alt text]([screenshot/Screenshot 2024-06-27 162012.png](https://github.com/Shyjojose/differential_picker_robot/blob/main/screenshot/Screenshot%202024-06-27%20162012.png)
+![alt text](https://github.com/Shyjojose/differential_picker_robot/blob/main/screenshot/Screenshot%202024-06-27%20162012.png)
 
     $ cd ~/catkin_ws/src/
     $ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
