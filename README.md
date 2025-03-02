@@ -1,4 +1,4 @@
-# Differential picker robot 
+# Autonomous Differential picker robot 
  This project involves the development of an autonomous differential drive robot equipped with a pick-and-place arm. The robot is designed to navigate dynamic environments, perform SLAM (Simultaneous Localization and Mapping), and execute pick-and-place tasks autonomously. The project leverages ROS (Robot Operating System), Gazebo for simulation, and MoveIt for motion planning.
 
 Features
